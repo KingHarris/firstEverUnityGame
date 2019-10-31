@@ -18,7 +18,7 @@ public class follow : MonoBehaviour
     void Update()
     {
 		Vector3 tempPosition = transform.position;
-		tempPosition.x = target.position.x + offset.x;
+		tempPosition = target.position + offset;
         transform.position = tempPosition;
     }
 }
