@@ -17,6 +17,8 @@ public class follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = target.position + offset;
+		Vector3 tempPosition = transform.position;
+		tempPosition = target.position + offset;
+        transform.position = tempPosition;
     }
 }
