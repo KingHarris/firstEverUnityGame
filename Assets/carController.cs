@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class carController : MonoBehaviour {
+public class CarController : MonoBehaviour {
     
     public Rigidbody2D carRigidBody;
 	public WheelJoint2D backTire;
